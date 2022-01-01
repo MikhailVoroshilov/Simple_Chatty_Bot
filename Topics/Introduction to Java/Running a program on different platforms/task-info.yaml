@@ -1,0 +1,33 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: 1 version
+- text: 2 versions
+- text: 3 versions
+- text: As many versions as the total number of users
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Task.java
+  visible: true
+  learner_created: true
+- name: src/Main.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+- name: src/Propery.java
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/3741#comment
+status: Failed
+feedback:
+  message: Answer choices will be shuffled next time.
+  time: Fri, 24 Dec 2021 06:53:44 UTC
+record: -1
